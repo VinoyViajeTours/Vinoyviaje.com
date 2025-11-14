@@ -7,51 +7,41 @@
 
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: #fafafa;
-            color: #333;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
         }
-
         header {
-            background: #5a0d2d;
-            padding: 15px;
-            color: #fff;
+            background-color: #8d153a;
+            color: white;
+            padding: 20px;
             text-align: center;
         }
-
         nav {
-            background: #7c123f;
+            background: #eee;
             padding: 10px;
             text-align: center;
         }
-
         nav a {
-            color: #fff;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
+            color: #8d153a;
         }
-
-        h2 {
-            text-align: center;
-            color: #5a0d2d;
-            margin-top: 30px;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 10px;
+        .galeria {
             padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
         }
-
-        .gallery img {
-            width: 100%;
-            height: 180px;
+        .galeria img {
+            width: 300px;
+            height: 200px;
             object-fit: cover;
-            border-radius: 6px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
         }
     </style>
 </head>
@@ -59,24 +49,23 @@
 <body>
 
 <header>
-    <h1>Galería Fotográfica</h1>
+    <h1>Galería de Experiencias</h1>
 </header>
 
 <nav>
     <a href="index.html">Inicio</a>
     <a href="servicios.html">Servicios</a>
-    <a href="galeria.html">Galería</a>
+    <a href="galería.html">Galería</a>
+    <a href="colaboraciones.html">Colaboraciones</a>
+    <a href="pagos.html">Pagos</a>
 </nav>
 
-<h2>Nuestras Experiencias</h2>
+<div class="galeria">
 
-<div class="gallery">
-    <!-- Ejemplo de imágenes (luego ponemos las tuyas) -->
-    <img src="FOTOS/foto1.jpg" alt="Excursión 1">
-    <img src="FOTOS/foto2.jpg" alt="Excursión 2">
-    <img src="FOTOS/foto3.jpg" alt="Excursión 3">
-    <img src="FOTOS/foto4.jpg" alt="Excursión 4">
-    <img src="FOTOS/foto5.jpg" alt="Excursión 5">
+    <!-- Ejemplo de cómo se agregan las fotos -->
+    <!-- Cuando subas una foto, solo agregamos una línea así: -->
+    <!-- <img src="NOMBRE-DE-TU-FOTO.jpg" alt="Foto"> -->
+
 </div>
 
 </body>
