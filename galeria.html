@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Vino y Viaje Tours</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #333;
+        }
+
+        header {
+            background: #5a0d2d;
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav {
+            background: #7c123f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+            color: #5a0d2d;
+            margin-top: 30px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Galería Fotográfica</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="galeria.html">Galería</a>
+</nav>
+
+<h2>Nuestras Experiencias</h2>
+
+<div class="gallery">
+    <!-- Ejemplo de imágenes (luego ponemos las tuyas) -->
+    <img src="FOTOS/foto1.jpg" alt="Excursión 1">
+    <img src="FOTOS/foto2.jpg" alt="Excursión 2">
+    <img src="FOTOS/foto3.jpg" alt="Excursión 3">
+    <img src="FOTOS/foto4.jpg" alt="Excursión 4">
+    <img src="FOTOS/foto5.jpg" alt="Excursión 5">
+</div>
+
+</body>
+</html>
