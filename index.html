@@ -7,66 +7,52 @@
 
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: #fafafa;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
         }
-
         header {
-            background: #5a0d2d;
-            padding: 15px;
-            color: #fff;
-            text-align: center;
-        }
-
-        header img {
-            width: 130px;
-        }
-
-        nav {
-            background: #7c123f;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .hero {
-            background: url("FOTOS/inicio.jpg") center/cover no-repeat;
-            color: white;
-            padding: 120px 20px;
-            font-size: 28px;
-            font-weight: bold;
-            text-shadow: 1px 1px 4px #000;
-        }
-
-        .btn {
-            background: #5a0d2d;
-            padding: 12px 20px;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 15px;
-        }
-
-        footer {
-            background: #5a0d2d;
+            background-color: #8d153a;
             color: white;
             padding: 20px;
             text-align: center;
-            margin-top: 40px;
+        }
+        nav {
+            background: #eee;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #8d153a;
+        }
+        .hero {
+            background: url('FALTA_IMAGEN') center/cover no-repeat;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 0 2px 5px black;
+        }
+        .contenido {
+            padding: 20px;
+            text-align: center;
+        }
+        .btn-wsp {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #25d366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -74,37 +60,35 @@
 <body>
 
 <header>
-    <img src="LOGO/logo.png" alt="Vino y Viaje Tours Logo">
     <h1>Vino y Viaje Tours</h1>
+    <p>Experiencias únicas en Mendoza</p>
 </header>
 
 <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#servicios">Servicios</a>
-    <a href="galeria.html">Galería</a>
-    <a href="#contacto">Contacto</a>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="galería.html">Galería</a>
+    <a href="colaboraciones.html">Colaboraciones</a>
+    <a href="pagos.html">Pagos</a>
 </nav>
 
-<section id="inicio" class="hero">
-    Descubrí Mendoza con experiencias únicas
-</section>
+<div class="hero">
+    Bienvenidos a Mendoza
+</div>
 
-<section id="servicios">
-    <h2>Nuestros Servicios</h2>
-    <p>Traslados turísticos, bodegas, Valle de Uco, ciudad, Alta Montaña y mucho más.</p>
-    <a class="btn" href="servicios.html">Ver servicios</a>
-</section>
+<div class="contenido">
+    <h2>Descubrí Mendoza con nosotros</h2>
+    <p>
+        Traslados privados, tours personalizados, bodegas, alta montaña, y experiencias exclusivas.
+        Somos Melisa y Rocío, creadoras de Vino y Viaje Tours, una agencia 100% virtual donde tu viaje es nuestra prioridad.
+    </p>
 
-<section id="contacto">
-    <h2>Contacto</h2>
-    <p>Tel: +54 9 261 566-9782</p>
-    <p>Tel: +54 9 261 246-4932</p>
-    <p>Email: vinoyviajetours@gmail.com</p>
-</section>
-
-<footer>
-    © 2025 Vino y Viaje Tours — Todos los derechos reservados.
-</footer>
+    <a class="btn-wsp" 
+       href="https://wa.me/5492615669782" 
+       target="_blank">
+       📲 Reservá por WhatsApp
+    </a>
+</div>
 
 </body>
 </html>
